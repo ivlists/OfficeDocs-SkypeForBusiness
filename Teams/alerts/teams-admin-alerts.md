@@ -44,13 +44,13 @@ You must be a global admin in Microsoft 365 or a Teams service admin to configur
 
 The following is a list of the Teams monitoring rules available in the Teams admin center.
 
-|Rule  |Monitoring capability|What's monitored? |
-|---------|---------|---------|
-|[App submissions](../submit-approve-custom-apps.md) |Teams Apps | Proactively monitor Teams apps if they are submitted for approval.|
-|[Device state rule](device-health-status.md)  |Teams Devices | Proactively monitor Teams devices if they go offline.|
-|[Audio quality for in-progress meetings](alerts-in-progress-meeting-audio.md)|Teams meetings|Specified users' audio quality for in-progress meetings|
-|[Video quality for in-progress meetings](alerts-in-progress-meeting-video.md)|Teams meetings|Specified users' video quality for in-progress meetings|
-|[Screen sharing quality for in-progress meetings](alerts-in-progress-meeting-screen-sharing.md)|Teams meetings|Specified users' app sharing quality for in-progress meetings|
+|Rule  |Monitoring capability|What's monitored?|Required SKU|
+|---------|---------|---------|---------|
+|[App submissions](../submit-approve-custom-apps.md) |Teams Apps | Proactively monitor Teams apps if they are submitted for approval.| None |
+|[Device state rule](device-health-status.md)  |Teams Devices | Proactively monitor Teams devices if they go offline.|[Teams Rooms Pro](../rooms/rooms-licensing.md) |
+|[Audio quality for in-progress meetings](alerts-in-progress-meeting-audio.md)|Teams meetings|Specified users' audio quality for in-progress meetings|[Teams Premium](../enhanced-teams-experience.md) or [Teams Rooms Pro](../rooms/rooms-licensing.md)|
+|[Video quality for in-progress meetings](alerts-in-progress-meeting-video.md)|Teams meetings|Specified users' video quality for in-progress meetings|[Teams Premium](../enhanced-teams-experience.md) or [Teams Rooms Pro](../rooms/rooms-licensing.md)|
+|[Screen sharing quality for in-progress meetings](alerts-in-progress-meeting-screen-sharing.md)|Teams meetings|Specified users' app sharing quality for in-progress meetings|[Teams Premium](../enhanced-teams-experience.md) or [Teams Rooms Pro](../rooms/rooms-licensing.md)|
 
 ## Related topics
 
